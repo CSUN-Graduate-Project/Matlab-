@@ -14,9 +14,9 @@ res_dif = temp_r2 - temp_r1;
 
 temp_quant = v_dif/quantization;
 
-resist = res_dif/temp_quant;
-temp_res(1,index) = resist 
+resistance = res_dif/temp_quant;
+temp_res(1,index) = resistance; 
 
 index = index + 1;
-
 end
+temp_res
